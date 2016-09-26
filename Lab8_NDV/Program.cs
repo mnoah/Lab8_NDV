@@ -63,14 +63,7 @@ namespace Lab8_NDV
                 Console.WriteLine("Would you like to try another batter? (y/n)");
                 Awn= Console.ReadLine().ToLower();
 
-                if (Awn != "y" || Awn != "n")
-                {
-                    do
-                    {
-                        Console.WriteLine("please enter: y/n");
-                        Awn = Console.ReadLine().ToLower();
-                    } while (!(Awn == "y" || Awn == "n"));
-                }
+               
 
 
             } while (Awn == "y");
